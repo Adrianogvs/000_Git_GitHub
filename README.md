@@ -52,11 +52,6 @@ No VSCode, localize a área de terminal na parte inferior da tela. Caso o termin
 ![](./img/03.png)
 
 ---
-## Tipos de Commit e suas Descrições
-
-![](./img/05.png)
-
-
 
 ## Configurando o Git
 
@@ -111,7 +106,9 @@ Para adicionar todos os arquivos:
 ```bash
 git add .
 ```
+## Tipos de Commit e suas Descrições
 
+![](./img/05.png)
 ### Realizar um Commit
 Depois de adicionar os arquivos, salve as alterações no histórico do Git:
 
