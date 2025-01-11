@@ -256,4 +256,3 @@ Com essas boas práticas e comandos, você estará preparado para utilizar o Git
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
-# 000_Git_GitHub
