@@ -1,0 +1,28 @@
+repos:                                                      # Define os repositórios de onde os hooks do pre-commit serão baixados e configurados.
+-   repo: https://github.com/pre-commit/pre-commit-hooks    # Repositório oficial de hooks genéricos para pre-commit.
+    rev: v5.0.0                                             # Especifica a versão do repositório a ser usada.
+    hooks:                                                  # Lista de hooks configurados para este repositório.
+    -   id: check-yaml                                      # Verifica se os arquivos YAML estão corretamente formatados.
+    -   id: end-of-file-fixer                               # Garante que cada arquivo tenha uma linha em branco no final.
+    -   id: trailing-whitespace                             # Remove espaços em branco desnecessários no final das linhas.
+    -   id: name-tests-test                                 # Verifica se os arquivos de teste seguem o padrão de nomenclatura esperado.
+
+-   repo: https://github.com/psf/black                      # Repositório do Black, um formatador de código Python.
+    rev: 24.10.0                                            # Versão específica do Black a ser usada.
+    hooks:
+    -   id: black                                           # Hook que formata automaticamente o código Python de acordo com o padrão Black.
+
+-   repo: https://github.com/PyCQA/flake8                   # Repositório do Flake8, uma ferramenta de linting para Python.
+    rev: 7.1.1                                              # Versão específica do Flake8 a ser usada.
+    hooks:
+    -   id: flake8                                          # Hook que verifica o código Python para aderência a padrões de estilo e detecta erros comuns.
+
+-   repo: https://github.com/pre-commit/mirrors-mypy        # Repositório espelho do MyPy, um verificador de tipos estáticos para Python.
+    rev: v1.14.1                                            # Versão específica do MyPy a ser usada.
+    hooks:
+    -   id: mypy                                            # Hook que verifica a tipagem estática no código Python.
+
+-   repo: https://github.com/pre-commit/mirrors-eslint      # Repositório espelho do ESLint, uma ferramenta de linting para JavaScript.
+    rev: v9.17.0                                            # Versão específica do ESLint a ser usada.
+    hooks:
+    -   id: eslint                                          # Hook que verifica e aplica padrões de estilo e práticas recomendadas em arquivos JavaScript.
