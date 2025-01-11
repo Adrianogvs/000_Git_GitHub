@@ -152,6 +152,7 @@ Para visualizar o histórico dos commits, use:
 git log
 ```
 Esse comando mostra todas as mensagens, datas e IDs dos commits realizados no repositório.
+Para sair da tela do git log, basta pressionar a tecla q (de "quit"). Isso fechará a visualização e retornará ao terminal normal.
 
 ### Gerenciar Ramificações (*Branches*)
 Para trabalhar em funcionalidades separadas, é comum criar ramificações. Aqui estão os comandos principais:
