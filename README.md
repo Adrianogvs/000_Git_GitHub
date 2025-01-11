@@ -247,6 +247,7 @@ repos:
 ```
 Esses *hooks* serão executados sempre que você fizer um commit, ajudando a manter o padrão e a qualidade do código. Para explorar mais opções de *hooks*, consulte a [documentação do pre-commit](https://pre-commit.com/). Para explorar mais opções de *hooks*, consulte a [documentação do pre-commit](https://pre-commit.com/).
 
+![](./img/06.png)
 ---
 
 Com essas boas práticas e comandos, você estará preparado para utilizar o Git de maneira eficaz e profissional em seus projetos.
