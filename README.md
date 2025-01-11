@@ -60,14 +60,14 @@ No VSCode, localize a área de terminal na parte inferior da tela. Caso o termin
 
 ## Configurando o Git
 
-### 1. Configurar Nome de Usuário e Email
-Antes de iniciar o uso do Git, é necessário configurar suas credenciais. Digite os seguintes comandos:
+### Configurar Informações de Conta
+Para alterar ou configurar informações de conta no Git, use:
 
 ```bash
-git config --global user.name "SeuNome"
+git config --global user.name "Seu Nome"
 git config --global user.email "seuemail@exemplo.com"
 ```
-Essas informações serão usadas para identificar as alterações que você realizar nos repositórios.
+Essas configurações podem ser feitas de forma **global** (para todos os repositórios) ou **local** (apenas para o repositório atual).
 
 ### 2. Verificar Configurações
 Para confirmar se as credenciais foram configuradas corretamente, utilize:
@@ -194,15 +194,6 @@ git merge nome-da-branch
 ```
 Esse comando combina as alterações feitas em outra ramificação com a atual.
 
-### Configurar Informações de Conta
-Para alterar ou configurar informações de conta no Git, use:
-
-```bash
-git config --global user.name "Seu Nome"
-git config --global user.email "seuemail@exemplo.com"
-```
-Essas configurações podem ser feitas de forma **global** (para todos os repositórios) ou **local** (apenas para o repositório atual).
-
 ### Remover Arquivos Grandes do Histórico
 Se você adicionou acidentalmente um arquivo muito grande ao repositório e precisa removê-lo, utilize:
 
@@ -262,3 +253,7 @@ Esses *hooks* serão executados sempre que você fizer um commit, ajudando a man
 
 Com essas boas práticas e comandos, você estará preparado para utilizar o Git de maneira eficaz e profissional em seus projetos.
 
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+# 000_Git_GitHub
